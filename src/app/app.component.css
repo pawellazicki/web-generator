@@ -1,0 +1,107 @@
+.title {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.appWrapper {
+  padding: 2% 0;
+  margin: 0 auto;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  flex-direction: column;
+  background-color: #222222;
+}
+
+.secondTitle {
+  margin: 0 auto 2%;
+  color: #dddddd;
+  font-size: 1.7vw;
+}
+
+.valuesWrapper {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.valLabel {
+  font-size: 1.1vw;
+  color:#dddddd;
+}
+
+.valInput {
+  width: 100px;
+  background-color: #dddddd;
+}
+
+.resultContainer {
+  margin: 3% 0 0;
+  padding: 0 10px;
+  min-width: 10%;
+  min-height: 70px;
+  background-color: #666666;
+}
+
+.resultNumber {
+  justify-content: center;
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+.submitButton {
+  font-size: 1.1vw;
+  background-color: #dddddd;
+  margin: 3% 0;
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 8vw;
+  }
+  
+  .appWrapper {
+    padding: 5% 0;
+    width: 100%;
+    height: 100vw;
+  }
+  
+  .secondTitle {
+    margin: 0 auto 2%;
+    font-size: 5vw;
+  }
+  
+  .valuesWrapper {
+    width: 100%;
+  }
+  
+  .valLabel {
+    font-size: 4vw;
+  }
+  
+  .valInput {
+    width: 100px;
+  }
+  
+  .submitButton {
+    font-size: 5vw;
+    margin: 6% 0;
+  }
+
+  .resultContainer {
+    margin: 3% 0 0;
+    padding: 0 10px;
+    min-width: 10%;
+    min-height: 70px;
+    background-color: #666666;
+  }
+  
+  .resultNumber {
+    justify-content: center;
+    text-align: center;
+    font-size: 6vw;
+  }
+  
+}
